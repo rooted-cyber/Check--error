@@ -1,4 +1,4 @@
-clear
+
 kuch_likho="printf"
 kuch_purana="echo -e"
 kuch_purana_me="echo -e -n"
@@ -10,10 +10,24 @@ khatam="\033[0m"
 pila_me="\033[93m"
 error()
 {
+	kya="echo"
 	error_me="printf"
+	$kya
+	$kya
+	$kya
 	$error_me "\033[91m [+] This is error !!! \n\n"
 	bash error.sh
-	}
+	lal_rang="\033[91m"
+	ajib_me="\033[96m"
+	hara_me_likho="\033[92m"
+	kuch_purana="printf"
+	$kya
+	$kya
+	$kya
+	$kuch_purana "$ajib_me \n\nPress enter to see $hara_me_likho Correct √√√ "
+read
+start
+}
 start()
 {
 	kuch_likho="printf"
@@ -27,14 +41,25 @@ khatam="\033[0m"
 pila_me="\033[93m"
 koi="echo"
 $koi
-	$kuch_purana "$lal_rang [+] Hello This Is Correct √√√$khatam"
+$koi
+$koi
+	$kuch_purana "$hara_me [+] Hello This Is Correct √√√$khatam"
 $kuch_likho "$ajib_me [+] This is correct\n$khatam"
+$koi
+$koi
+$koi
+$kuch_purana "$bulu_me Press enter to see $lal_rang error !!!!!"
+read
+error
 }
-$kuch_purana_me "$ajib_me [√] Conguratulation type $lal_rang($bulu_me Y$hara_me/\033[1;93mN$lal_rang ) "
+niche="echo"
+$niche
+$niche
+$kuch_purana_me "$ajib_me [√] You want see error $lal_rang($bulu_me Y$hara_me/\033[1;93mN$lal_rang ) "
 read b
 case $b in
-y|Y)start ;;
-n|N)error ;;
+y|Y)error ;;
+n|N)start ;;
 esac
 #$kuch_purana "$lal_rang [+] Hello This Is #Error !!!"
 #$kuch_likho "$ajib_me [+] This is error"
