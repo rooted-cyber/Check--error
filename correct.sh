@@ -25,7 +25,7 @@ error3
 	$kya
 	$kya
 	$error_me "\033[91m [+] This is error !!! \n\n"
-	#chmod 777 error.sh
+	chmod 777 error.sh
 	sh error.sh
 	lal_rang="\033[91m"
 	ajib_me="\033[96m"
@@ -102,6 +102,7 @@ read b
 case $b in
 y|Y)error ;;
 n|N)start ;;
+*)bash correct.sh
 esac
 #$kuch_purana "$lal_rang [+] Hello This Is #Error !!!"
 #$kuch_likho "$ajib_me [+] This is error"
