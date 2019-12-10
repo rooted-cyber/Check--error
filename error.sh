@@ -1,4 +1,46 @@
+error2() {
+	kya="echo"
+	error_me="printf"
+	$kya
+	$kya
+	$kya
+	$error_me "\033[91m [+] This is error !!! \n\n"
+	chmod 777 error.sh
+	./error.sh
+	lal_rang="\033[91m"
+	ajib_me="\033[96m"
+	hara_me_likho="\033[92m"
+	kuch_purana="printf"
+	$kya
+	$kya
+	$kya
+	$kuch_purana "$lal_rang \n\nPress enter to see 3rd error ××× "
+read
+error3
+}
+	error3() {
+	kya="echo"
+	error_me="printf"
+	$kya
+	$kya
+	$kya
+	$error_me "\033[91m [+] This is error !!! \n\n"
+	#chmod 777 error.sh
+	sh error.sh
+	lal_rang="\033[91m"
+	ajib_me="\033[96m"
+	hara_me_likho="\033[92m"
+	kuch_purana="printf"
+	$kya
+	$kya
+	$kya
+	$kuch_purana "$lal_rang \n\nPress enter to see $hara Correct √√√ "
+read
+start
+}
+	
 
+	
 kuch_likho="printf"
 kuch_purana="echo -e"
 kuch_purana_me="echo -e -n"
@@ -24,9 +66,9 @@ error()
 	$kya
 	$kya
 	$kya
-	$kuch_purana "$ajib_me \n\nPress enter to see $hara_me_likho Correct √√√ "
+	$kuch_purana "$lal_rang \n\nPress enter to see 2nd error ××× "
 read
-start
+error2
 }
 start()
 {
@@ -48,7 +90,7 @@ $kuch_likho "$ajib_me [+] This is correct\n$khatam"
 $koi
 $koi
 $koi
-$kuch_purana "$bulu_me Press enter to see $lal_rang error !!!!!"
+$kuch_purana "$bulu_me Press enter to see $lal_rang error ××× !!!!!"
 read
 error
 }
