@@ -6,7 +6,7 @@ error2() {
 	$kya
 	$error_me "\033[91m [+] This is error !!! \n\n"
 	chmod 777 error.sh
-	./error.sh
+	./error2.sh
 	lal_rang="\033[91m"
 	ajib_me="\033[96m"
 	hara_me_likho="\033[92m"
@@ -26,7 +26,7 @@ error3
 	$kya
 	$error_me "\033[91m [+] This is error !!! \n\n"
 	chmod 777 error.sh
-	sh error.sh
+	sh error3.sh
 	lal_rang="\033[91m"
 	ajib_me="\033[96m"
 	hara_me_likho="\033[92m"

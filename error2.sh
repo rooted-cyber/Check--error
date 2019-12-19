@@ -1,0 +1,5 @@
+ab_do_tho_enter_karna_chahiye="\n\n"
+ab_likhte_hai_lekin_lal_rang_me_likhte_hai_ynha_to_normal_hi_dikhega_to_ab_likhte_hai="\033[31m"
+ab_likhne_ja_rhe_hai_smjh_aaya="printf"
+$ab_likhne_ja_rhe_hai_smjh_aaya "$ab_do_tho_enter_karna_chahiye"
+$ab_likhne_ja_rhe_hai_smjh_aaya "$sbse_phle_ye_comma_de_dete_hai $ab_likhte_hai_lekin_lal_rang_me_likhte_hai_ynha_to_normal_hi_dikhega_to_ab_likhte_hai This is error file $ab_do_tho_enter_karna_chahiye"
