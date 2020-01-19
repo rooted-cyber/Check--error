@@ -1,3 +1,14 @@
+unlimited () {
+	cd ~/Check--error
+	chmod 700 *
+	bash error.sh
+	./error2.sh
+	sh error3.sh
+	un2
+	}
+	un2 () {
+		unlimited
+		}
 error2() {
 	kya="echo"
 	error_me="printf"
@@ -34,9 +45,9 @@ error3
 	$kya
 	$kya
 	$kya
-	$kuch_purana "$lal_rang \n\nPress enter to see $hara Correct √√√ "
+	$kuch_purana "$ajib_me \n\nPress enter to see $lal_rang unlimited error ××× "
 read
-start
+unlimited
 }
 	
 
